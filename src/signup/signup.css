@@ -1,0 +1,22 @@
+.mysignup{
+    background-image: url('signup-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup-form{
+    background-color: rgba(15, 39, 23, 0.9);
+    width: 30%;
+    padding: 4rem;
+}
+
+.signup-form h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {  
+    .signup-form{
+        width: 80%;
+        padding: 4rem;
+    }
+}
